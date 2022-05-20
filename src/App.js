@@ -34,7 +34,7 @@ function App() {
                 path="/"
                 element={
                   <>
-                    <h1>ANUM CHANGRI APP</h1>
+                    <h1>FEEDBACK FORM APP</h1>
                     <FeedbackForm />
 
                     <FeedbackStats />
