@@ -19,13 +19,6 @@ import Post from "./components/Post";
 import Card from "./components/shared/Card";
 
 function App() {
-  const componentABC = () => {
-    return (
-      // JSX
-      <div style={{ color: "white" }}>Hello JSX!</div>
-    );
-  };
-
   //console.log("Feedback State: ", newFeedback);
 
   return (
