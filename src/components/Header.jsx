@@ -1,33 +1,25 @@
+import PropTypes from "prop-types";
 
-import PropTypes from 'prop-types'
-
-
-function Header({text, bgColor, textColor}) {
-    const headerStyles=
-    {
-        backgroundColor: bgColor,
-         color: textColor,
-    }
+function Header({ text, bgColor, textColor }) {
+  const headerStyles = {
+    backgroundColor: bgColor,
+    color: textColor,
+  };
 
   return (
-
-    <header style={headerStyles }>
-    
-        <div className="container">
+    <header style={headerStyles}>
+      <div className="container">
         <h2>{text}</h2>
-    </div>
-
+      </div>
     </header>
-  )
+  );
 }
 
-Header.defaultProps=
-{
-    text:'FEEDBACK UI',
-}
+Header.defaultProps = {
+  text: "ANUM AND HER NEVER ENDING RONAY DHONAYY",
+};
 
-Header.propTypes=
-{
-    text: PropTypes.string,
-}
-export default Header
+Header.propTypes = {
+  text: PropTypes.string,
+};
+export default Header;
