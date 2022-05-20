@@ -54,7 +54,7 @@ function FeedbackForm() {
   return (
     <Card>
       <form onSubmit={handleSubmit}>
-        <h2>How would you rate your service with us?</h2>
+        <h2>Do you want to add anum k aur ronay dhonay?</h2>
         {/* todo-rating select component */}
         <RatingSelect select={(rating) => setRating(rating)} />
 
@@ -62,7 +62,7 @@ function FeedbackForm() {
           <input
             onChange={handleTextChange}
             type="text"
-            placeholder="Write a review"
+            placeholder="Write ronay dhonay"
             value={text}
           />
           <Button type="submit" isDisabled={btnDisabled}>
