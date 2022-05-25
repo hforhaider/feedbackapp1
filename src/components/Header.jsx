@@ -16,7 +16,7 @@ function Header({ text, bgColor, textColor }) {
 }
 
 Header.defaultProps = {
-  text: "ANUM AND HER NEVER ENDING RONAY DHONAYY",
+  text: "FEEDBACK UI",
 };
 
 Header.propTypes = {

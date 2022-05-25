@@ -54,7 +54,7 @@ function FeedbackForm() {
   return (
     <Card>
       <form onSubmit={handleSubmit}>
-        <h2>Do you want to add anum k aur ronay dhonay?</h2>
+        <h2>How would you rate the service with us?</h2>
         {/* todo-rating select component */}
         <RatingSelect select={(rating) => setRating(rating)} />
 
