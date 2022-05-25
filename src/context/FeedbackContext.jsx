@@ -7,22 +7,22 @@ export const FeedbackProvider = ({ children }) => {
   const [feedback, setFeedback] = useState([
     {
       id: 1,
-      text: "Anum sardar also known as CHANGARI belongs to pakhi was family",
+      text: "The app works great, i'm very satisfied with it no matter what",
       rating: 10,
     },
     {
       id: 2,
-      text: " one day a ch tanveer hussain picked her up from garbage",
+      text: "The app is very excellent",
       rating: 10,
     },
     {
       id: 3,
-      text: "Anum has many issues of kapre washong, tayyyaba and gucci and baba ashfaq",
+      text: "The app works good.",
       rating: 5,
     },
     {
       id: 4,
-      text: "Anum ko kapre dhonay aur sukanay ki jaga nai milti and maid base ESTEE LAUDER KI LE GYE MANHUS",
+      text: "There should be more feedback form on it aswell.",
       rating: 3,
     },
   ]);
