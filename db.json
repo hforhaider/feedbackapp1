@@ -15,10 +15,9 @@
       "rating": 8,
       "text": "This is feedback item 3 coming from the backend"
     },
-
     {
-      "rating": "8",
-      "text": "this is new feedback",
+      "rating": "3",
+      "text": "you are the best",
       "id": 4
     }
   ]
