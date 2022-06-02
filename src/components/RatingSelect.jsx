@@ -41,17 +41,6 @@ function RatingSelect({ select }) {
       <li>
         <input
           type="radio"
-          id="num4"
-          name="rating"
-          value="4"
-          onChange={handleChange}
-          checked={selected === 4}
-        />
-        <label htmlFor="num4">4</label>
-      </li>
-      <li>
-        <input
-          type="radio"
           id="num3"
           name="rating"
           value="3"
@@ -71,6 +60,7 @@ function RatingSelect({ select }) {
         />
         <label htmlFor="num4">4</label>
       </li>
+
       <li>
         <input
           type="radio"
